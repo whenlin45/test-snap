@@ -1,0 +1,26 @@
+!BuildState
+assets:
+  installed-packages: []
+  installed-snaps: [ubuntu-core-vm=7, ubuntu-image=104, core18=19, glmark2-wayland=x1,
+    hello-world=27, chromium-mir-kiosk=13, core=5145, lxd=8011, mir-kiosk-apps=32,
+    test-snapd-wayland=6, iot-example-graphical-snap=x1, mir-kiosk=168, hello=x1]
+  uname: 'Linux 4.4.0-87-generic #110-Ubuntu SMP Tue Jul 18 12:55:35 UTC 2017 x86_64
+    x86_64 x86_64 GNU/Linux'
+extracted_metadata:
+  files: []
+  metadata: !ExtractedMetadata
+    _data: {}
+project_options: {deb_arch: amd64}
+properties:
+  after: []
+  build: ''
+  build-attributes: []
+  build-packages: []
+  disable-parallel: false
+  install: ''
+  organize: {}
+  override-build: snapcraftctl build
+  prepare: ''
+schema_properties: []
+scriptlet_metadata: !ExtractedMetadata
+  _data: {}

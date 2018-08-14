@@ -1,0 +1,45 @@
+!PullState
+assets:
+  build-packages: []
+  build-snaps: []
+  source-details: null
+  stage-packages: ['libxdmcp6=1:1.1.2-1.1', libdrm-nouveau2=2.4.91-2~16.04.1, libxcb-xfixes0=1.11.1-1ubuntu1,
+    libprotobuf-lite9v5=2.6.1-1.3, libboost-filesystem1.58.0=1.58.0+dfsg-5ubuntu3.1,
+    libpciaccess0=0.13.4-1, libxcb-present0=1.11.1-1ubuntu1, libcapnp-0.5.3=0.5.3-2ubuntu1.1,
+    libglapi-mesa=18.0.5-0ubuntu0~16.04.1, libelf1=0.165-3ubuntu1.1, libbsd0=0.8.2-1,
+    libboost-system1.58.0=1.58.0+dfsg-5ubuntu3.1, libegl1-mesa=18.0.5-0ubuntu0~16.04.1,
+    libmircore1=0.32.1-0ubuntu16.04, xkb-data=2.16-1ubuntu1, 'libx11-6=2:1.6.3-1ubuntu2',
+    libexpat1=2.1.0-7ubuntu0.16.04.3, glmark2-data=2014.03+git20150611.fa71af2d-0ubuntu2,
+    libgbm1=18.0.5-0ubuntu0~16.04.1, glmark2-wayland=2014.03+git20150611.fa71af2d-0ubuntu2,
+    libxshmfence1=1.2-1, libwayland-client0=1.12.0-1~ubuntu16.04.3, libdrm-amdgpu1=2.4.91-2~16.04.1,
+    'libllvm6.0=1:6.0-1ubuntu2~16.04.1', 'libxau6=1:1.0.8-1', libmirprotobuf3=0.32.1-0ubuntu16.04,
+    libxcb1=1.11.1-1ubuntu1, libmirclient9=0.32.1-0ubuntu16.04, libwayland-egl1-mesa=18.0.5-0ubuntu0~16.04.1,
+    libjpeg8=8c-2ubuntu8, libdrm2=2.4.91-2~16.04.1, 'libxfixes3=1:5.0.1-2', 'libx11-data=2:1.6.3-1ubuntu2',
+    libgl1-mesa-dri=18.0.5-0ubuntu0~16.04.1, 'libxxf86vm1=1:1.1.4-1', libjpeg-turbo8=1.4.2-0ubuntu3.1,
+    'libxdamage1=1:1.1.4-2', libgl1-mesa-glx=18.0.5-0ubuntu0~16.04.1, libedit2=3.1-20150325-1ubuntu2,
+    libdrm-intel1=2.4.91-2~16.04.1, libffi6=3.2.1-4, libdrm-radeon1=2.4.91-2~16.04.1,
+    libxcb-glx0=1.11.1-1ubuntu1, libxcb-dri2-0=1.11.1-1ubuntu1, libxkbcommon0=0.5.0-1ubuntu2,
+    'libsensors4=1:3.4.0-2', libxcb-dri3-0=1.11.1-1ubuntu1, libpng12-0=1.2.54-1ubuntu1.1,
+    libmircommon7=0.32.1-0ubuntu16.04, libwayland-server0=1.12.0-1~ubuntu16.04.3,
+    'libx11-xcb1=2:1.6.3-1ubuntu2', libxcb-sync1=1.11.1-1ubuntu1, 'libxext6=2:1.3.3-1',
+    libdrm-common=2.4.91-2~16.04.1]
+extracted_metadata:
+  files: []
+  metadata: !ExtractedMetadata
+    _data: {}
+project_options: {deb_arch: amd64}
+properties:
+  override-pull: snapcraftctl pull
+  parse-info: []
+  plugin: nil
+  source: .
+  source-branch: ''
+  source-commit: ''
+  source-depth: 0
+  source-subdir: ''
+  source-tag: ''
+  source-type: ''
+  stage-packages: [glmark2-wayland]
+schema_properties: []
+scriptlet_metadata: !ExtractedMetadata
+  _data: {}

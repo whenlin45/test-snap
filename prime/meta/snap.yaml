@@ -1,0 +1,25 @@
+name: glmark2-wayland
+version: 0.1
+summary: GLMark2 on Wayland
+description: 'GLMark2 on Wayland
+
+  '
+architectures:
+- amd64
+confinement: strict
+grade: devel
+plugs:
+  wayland-socket-dir:
+    content: wayland-socket-dir
+    default-provider: mir-kiosk
+    interface: content
+    target: $SNAP_DATA/wayland
+apps:
+  glmark2-wayland:
+    command: command-glmark2-wayland.wrapper
+    plugs:
+    - opengl
+    - wayland
+layout:
+  /usr/share/glmark2:
+    bind: $SNAP/usr/share/glmark2
